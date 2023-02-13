@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="187266" started-at="2022-01-23T20:12:00 IST" finished-at="2022-01-23T20:15:07 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="187266" started-at="2022-01-23T20:12:00 IST" finished-at="2022-01-23T20:15:07 IST">
+      <class name="telecomtestpage.PayBillTest">
+        <test-method status="PASS" signature="loadConfig()[pri:0, instance:telecomtestpage.PayBillTest@b7dd107]" name="loadConfig" is-config="true" duration-ms="18258" started-at="2022-01-23T20:14:21 IST" finished-at="2022-01-23T20:14:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method status="PASS" signature="addNoBillDetails()[pri:0, instance:telecomtestpage.PayBillTest@b7dd107]" name="addNoBillDetails" duration-ms="1157" started-at="2022-01-23T20:14:40 IST" finished-at="2022-01-23T20:14:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNoBillDetails -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:telecomtestpage.PayBillTest@b7dd107]" name="tearDown" is-config="true" duration-ms="1250" started-at="2022-01-23T20:14:41 IST" finished-at="2022-01-23T20:14:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="loadConfig()[pri:0, instance:telecomtestpage.PayBillTest@b7dd107]" name="loadConfig" is-config="true" duration-ms="17990" started-at="2022-01-23T20:14:42 IST" finished-at="2022-01-23T20:15:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method status="PASS" signature="payBill(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:telecomtestpage.PayBillTest@b7dd107]" name="payBill" duration-ms="5257" started-at="2022-01-23T20:15:00 IST" data-provider="getCustomerData" finished-at="2022-01-23T20:15:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anjali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ks]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mysore]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9156552439]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payBill -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:telecomtestpage.PayBillTest@b7dd107]" name="tearDown" is-config="true" duration-ms="1246" started-at="2022-01-23T20:15:06 IST" finished-at="2022-01-23T20:15:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- telecomtestpage.PayBillTest -->
+      <class name="telecomtestpage.CustomerTest">
+        <test-method status="PASS" signature="loadConfig()[pri:0, instance:telecomtestpage.CustomerTest@42d8062c]" name="loadConfig" is-config="true" duration-ms="21104" started-at="2022-01-23T20:12:02 IST" finished-at="2022-01-23T20:12:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method status="PASS" signature="addCustomerDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:telecomtestpage.CustomerTest@42d8062c]" name="addCustomerDetails" duration-ms="3991" started-at="2022-01-23T20:12:23 IST" data-provider="getCustomerData" finished-at="2022-01-23T20:12:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anjali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ks]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mysore]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9156552439]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerDetails -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:telecomtestpage.CustomerTest@42d8062c]" name="tearDown" is-config="true" duration-ms="1052" started-at="2022-01-23T20:12:27 IST" finished-at="2022-01-23T20:12:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="loadConfig()[pri:0, instance:telecomtestpage.CustomerTest@42d8062c]" name="loadConfig" is-config="true" duration-ms="17936" started-at="2022-01-23T20:12:28 IST" finished-at="2022-01-23T20:12:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method status="PASS" signature="addNocustomerDetails()[pri:0, instance:telecomtestpage.CustomerTest@42d8062c]" name="addNocustomerDetails" duration-ms="1410" started-at="2022-01-23T20:12:46 IST" finished-at="2022-01-23T20:12:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNocustomerDetails -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:telecomtestpage.CustomerTest@42d8062c]" name="tearDown" is-config="true" duration-ms="1133" started-at="2022-01-23T20:12:48 IST" finished-at="2022-01-23T20:12:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- telecomtestpage.CustomerTest -->
+      <class name="telecomtestpage.TraiffTest">
+        <test-method status="PASS" signature="loadConfig()[pri:0, instance:telecomtestpage.TraiffTest@2db7a79b]" name="loadConfig" is-config="true" duration-ms="17105" started-at="2022-01-23T20:12:49 IST" finished-at="2022-01-23T20:13:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method status="PASS" signature="addNoTariffPlan()[pri:0, instance:telecomtestpage.TraiffTest@2db7a79b]" name="addNoTariffPlan" duration-ms="1299" started-at="2022-01-23T20:13:06 IST" description="adding no tariff details" finished-at="2022-01-23T20:13:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNoTariffPlan -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:telecomtestpage.TraiffTest@2db7a79b]" name="tearDown" is-config="true" duration-ms="1157" started-at="2022-01-23T20:13:08 IST" finished-at="2022-01-23T20:13:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="loadConfig()[pri:0, instance:telecomtestpage.TraiffTest@2db7a79b]" name="loadConfig" is-config="true" duration-ms="17818" started-at="2022-01-23T20:13:09 IST" finished-at="2022-01-23T20:13:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method status="PASS" signature="addNoTariffToNewCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:telecomtestpage.TraiffTest@2db7a79b]" name="addNoTariffToNewCustomer" duration-ms="4477" started-at="2022-01-23T20:13:27 IST" data-provider="getCustomerData" finished-at="2022-01-23T20:13:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anjali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ks]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mysore]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9156552439]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNoTariffToNewCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:telecomtestpage.TraiffTest@2db7a79b]" name="tearDown" is-config="true" duration-ms="1204" started-at="2022-01-23T20:13:32 IST" finished-at="2022-01-23T20:13:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="loadConfig()[pri:0, instance:telecomtestpage.TraiffTest@2db7a79b]" name="loadConfig" is-config="true" duration-ms="17814" started-at="2022-01-23T20:13:33 IST" finished-at="2022-01-23T20:13:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method status="PASS" signature="addTariffToNewCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:telecomtestpage.TraiffTest@2db7a79b]" name="addTariffToNewCustomer" duration-ms="6117" started-at="2022-01-23T20:13:51 IST" data-provider="getCustomerData" finished-at="2022-01-23T20:13:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anjali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ks]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mysore]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9156552439]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTariffToNewCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:telecomtestpage.TraiffTest@2db7a79b]" name="tearDown" is-config="true" duration-ms="1066" started-at="2022-01-23T20:13:57 IST" finished-at="2022-01-23T20:13:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="loadConfig()[pri:0, instance:telecomtestpage.TraiffTest@2db7a79b]" name="loadConfig" is-config="true" duration-ms="17939" started-at="2022-01-23T20:13:59 IST" finished-at="2022-01-23T20:14:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method status="PASS" signature="addTraiffPlan(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:telecomtestpage.TraiffTest@2db7a79b]" name="addTraiffPlan" duration-ms="3334" started-at="2022-01-23T20:14:16 IST" data-provider="getTariff" finished-at="2022-01-23T20:14:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[40.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[60.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[70.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTraiffPlan -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:telecomtestpage.TraiffTest@2db7a79b]" name="tearDown" is-config="true" duration-ms="1184" started-at="2022-01-23T20:14:20 IST" finished-at="2022-01-23T20:14:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- telecomtestpage.TraiffTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
